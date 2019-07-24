@@ -9,9 +9,9 @@ class Device {
     var deviceType: String? = null
 }
 
-class Attendee(id: ObjectId?, userId: String?) {
+class Attendee(id: String?, userId: String?) {
     @BsonId
-    var id: ObjectId? = id
+    var id: String? = id
     var userId: String? = userId
     var gmtOffset: Int? = null
     var weekdayMorning: Date? = null
