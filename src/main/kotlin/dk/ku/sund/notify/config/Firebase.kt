@@ -14,7 +14,7 @@ fun initializeFcb() {
         .createScoped(listOf("https://www.googleapis.com/auth/firebase.messaging"))
     val options = FirebaseOptions.Builder()
         .setCredentials(credential)
-        .setDatabaseUrl("https://smartsleep-54788.firebaseio.com")
+        .setDatabaseUrl("https://smartsleep-cdc62.firebaseio.com")
         .build()
 
     FirebaseApp.initializeApp(options)
